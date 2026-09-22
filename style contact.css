@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4b1dc;
+  color: #981561;
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  text-align: center; 
+  padding: 30px 20px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #981561;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 22px;
+  color: #981561;
+  margin: 25px 0 10px 0;
+}
+
+h3 {
+  font-size: 18px;
+  color: #7a1c51;
+  margin: 20px 0 10px 0;
+}
+
+p {
+  font-family: 'Garamond', serif;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 10px auto;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #a01862;
+  opacity: 0.3;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+nav {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: #608e48;
+  padding: 8px 18px;
+  border-radius: 20px;
+  margin: 10px 0;
+}
+
+nav a {
+  color: #8c285a;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 8px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+table {
+  margin: 15px auto; 
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 650px;
+  background-color: #608e48; 
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(152, 21, 97, 0.12);
+}
+
+th, td {
+  padding: 10px 15px;
+  color: #1e4620;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+th {
+  background-color: #608e48;
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+td:first-child {
+  text-align: right;
+  width: 35%;
+}
+
+td:last-child {
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+  width: 95%;
+  padding: 6px 10px;
+  border: 1px solid #608e48;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  outline: none;
+  background-color: #9abb88;
+}
+
+input[type="radio"] {
+  margin-left: 5px;
+  margin-right: 3px;
+  accent-color: #1e4620;
+}
+
+button {
+  background-color: #608e48;
+  color: #1e4620;
+  border: 1px solid #608e48;
+  padding: 8px 18px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 10px 5px;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #608e48;
+}
+
+a {
+  color: #8c285a;
+  font-weight: bold;
+}
+
+em {
+  font-size: 0.9rem;
+  color: #7a1c51;
+}
+
+footer p {
+  font-size: 0.85rem;
+  margin-top: 15px;
+  opacity: 0.8;
+}
